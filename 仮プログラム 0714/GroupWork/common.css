@@ -1,0 +1,35 @@
+/* 全体に適用される基本スタイル */
+body {
+    font-family: sans-serif; /* 基本のフォント */
+    margin: 0;
+    background-color: #f8f8f8; /* 全体の背景色を少しグレーに */
+    color: #333; /* 基本の文字色 */
+}
+
+/* 見出しに使われている明朝体フォントを指定 */
+h1, h2, h3 {
+    font-family: 'Shippori Mincho', serif;
+}
+
+/* リンクの青い色と下線を消す */
+a {
+    text-decoration: none;
+    color: inherit; /* 親要素の色を継承する */
+}
+
+
+/* ページのコンテンツを中央に寄せるための設定 */
+main, footer {
+    margin: 0 auto; /* 中央寄せ */
+}
+
+
+/* 1. ヘッダー */
+header {
+    width:100%;
+    height:64px;
+    display: flex; /* ロゴとナビゲーションを横並びに */
+    justify-content: space-between; /* 両端に寄せる */
+    align-items: center; /* 高さを中央に揃える */
+    background-color:red;
+}
