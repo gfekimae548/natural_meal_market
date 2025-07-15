@@ -1,164 +1,111 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NaturalMealMarket</title>
-    <!-- CSSファイルを読み込むための大切な1行 -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="common.css">
-    <!-- Google Fontsを読み込む（おしゃれなフォントを使うため） -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natural Meal Market</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- 1. ヘッダー（ページの一番上） -->
-    <header>
-                <div class="logo">NMM</div>
-        <nav>
-            <ul>
-                <li><a href="#">TOP</a></li>
-                <li><a href="#">メニュー</a></li>
-                <li><a href="#">オーガニック食品について</a></li>
-                <li><a href="#">お知らせ</a></li>
-                <li><a href="#">アクセス</a></li>
-                <li><a href="#">お問い合わせ</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="header-top">
+      <h1>NaturalMealMarket</h1>
+      <nav>
+        <ul>
+          <li><a href="#">TOP</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">オーガニック商品について</a></li>
+          <li><a href="#">メニュー</a></li>
+          <li><a href="#">アクセス</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="hero">
+      <img src="/images/top.png" alt="トップ画像">
+      <div class="hero-text">
+        <h2>Natural MeaL market</h2>
+        <p>あなたの健康を私たちがお手伝いします。</p>
+      </div>
+    </div>
+  </header>
 
-    <main>
-        <!-- 2. メインビジュアル -->
-        <section class="hero">
-            <h1>NaturalMealMarket</h1>
-            <p>あなたの健康を私たちがお手伝いします。</p>
-        </section>
+  <main>
+    <section class="news">
+      <h2>お知らせ</h2>
+      <p class="sub">information</p>
+      <ul>
+        <li><span>2025.07.05</span> 夏野菜を使った冷たい「夏のスペシャルランチ」が始まりました。</li>
+        <li><span>2025.06.20</span> 提携農家さん直送！「完熟桃のサマーパフェ」、期間限定で登場。</li>
+        <li><span>2025.06.08</span> 「自家製スープの手作りワークショップ」を開催しました。</li>
+        <li><span>2025.05.25</span> 新しい提携農家「新アルプス農園」さんのご紹介。</li>
+        <li><span>2025.05.10</span> 苺の収穫体験「季節のアトリエスペシャル」ご提供開始。</li>
+        <li><span>2025.04.22</span> 雑誌「からだにいいこと6月号」に当店が掲載されました。</li>
+        <li><span>2025.04.07</span> 季節限定「まるごと新玉ねぎのスープ」がメニューに加わりました。</li>
+      </ul>
+    </section>
 
-        <!-- 3. お知らせ -->
-        <section class="information">
-            <h2>
-                お知らせ
-                <span>information</span>
-            </h2>
-            <div class="info-box">
-                <!-- ここにお知らせ内容が入ります -->
-            </div>
-        </section>
+    <section class="why-organic">
+      <h2>私たちが、オーガニックという物語を紡ぐ理由</h2>
+      <p>私たちが一皿にこめる、大切な物語。<br>その主役は、いつも生命力あふれる「オーガニック食材」です。<br>なぜ私たちがこれほどまでにオーガニックに魅了されるのか、<br>その理由をお話しさせてください。</p>
 
-        <!-- 4. オーガニック食品について -->
-        <section class="about">
-            <h2>
-                オーガニック食品について
-                <span>about</span>
-            </h2>
-            <div class="policy-container">
-                <div class="policy-card">
-                    <h3>ポリシー</h3>
-                    <ul>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                    </ul>
-                </div>
-                <div class="policy-card dark">
-                    <h3>ポリシー</h3>
-                    <ul>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                    </ul>
-                </div>
-                <div class="policy-card">
-                    <h3>ポリシー</h3>
-                    <ul>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                        <li>List item</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      <div class="reason">
+        <h3>1. 100年先も美味しいオーガニックというわたしたちの約束。</h3>
+        <p>オーガニックとは、化学的な農薬や添加物に頼らず、未来へ続く食や環境を守るという大切な約束です。</p>
+      </div>
 
-        <!-- 5. メニューとオンラインストア -->
-        <section class="menu-store">
-            <div class="menu-item">
-                <div class="item-image-placeholder"></div>
-                <div class="item-text">
-                    <h3>メニュー</h3>
-                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
-                </div>
-            </div>
-            <div class="menu-item">
-                <div class="item-image-placeholder"></div>
-                <div class="item-text">
-                    <h3>オンラインストア</h3>
-                    <p>Body text for whatever you'd like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story.</p>
-                </div>
-            </div>
-        </section>
+      <div class="reason">
+        <h3>2. 「美味しい」の先にあるもの。大地と作り手と、あなたをつなぐ物語。</h3>
+        <p>「安心して食べたい」という思いに、生産者と私たちの想いを重ねて届けていきます。</p>
+      </div>
 
-        <!-- 6. アクセス -->
-        <section class="access">
-            <h2>
-                アクセス
-                <span>access</span>
-            </h2>
-            <div class="access-container">
-                <div class="map">
-                    <!-- Google Mapの埋め込みコードをここに貼ると地図が表示されます -->
-                    <!-- 今回はダミーの画像で代用します -->
-                    <img src="https://i.imgur.com/7gKjJdZ.png" alt="店舗の地図" style="width: 100%; height: auto;">
-                </div>
-                <div class="access-info">
-                    <p>
-                        〒500-8833<br>
-                        岐阜県岐阜市神田町9-27<br>
-                        大岐阜ビル7階
-                    </p>
-                    <p>
-                        JR岐阜駅より 徒歩約2分<br>
-                        名鉄岐阜駅より 徒歩約3分
-                    </p>
-                    <p>
-                        ＜店舗名＞<br>
-                        NaturalMealMarket<br>
-                        ナチュラルミールマーケット
-                    </p>
-                    <p>
-                        ＜ランチ＞ 11:00～14:30 ラストオーダー14:00
-                    </p>
-                    <p>
-                        ＜定休日＞ 毎週月曜日
-                    </p>
-                    <p>
-                        ＜TEL＞ 058-201-5568
-                    </p>
-                    <p>
-                        ＜URL＞ http://naturalmealmarket.co.jp
-                    </p>
-                </div>
-            </div>
-        </section>
+      <div class="reason">
+        <h3>3. あなたの一皿が、世界をつなぐ。オーガニックで描く、幸せの循環。</h3>
+        <p>大切なオーガニック料理を通して、環境や生産者と皆さんの温かいつながりを広げます。</p>
+      </div>
+    </section>
 
-        <!-- 7. お問い合わせボタン -->
-        <section class="cta">
-            <a href="#" class="cta-button">お問い合わせはこちら</a>
-        </section>
+    <section class="menu-links">
+      <div class="box">
+        <img src="/images/menu.jpg" alt="メニュー">
+        <div>
+          <h4>メニュー</h4>
+          <p>旬の食材で彩るランチ、ディナー、ドリンク。今日のメニューはこちらからどうぞ。</p>
+        </div>
+      </div>
+      <div class="box">
+        <img src="/images/store.jpg" alt="オンラインストア">
+        <div>
+          <h4>オンラインストア</h4>
+          <p>大切な人への贈り物にも。シェフこだわりのオーガニック商品が揃っています。</p>
+        </div>
+      </div>
+    </section>
 
-    </main>
+    <section class="access">
+      <h2>アクセス</h2>
+      <p class="sub">access</p>
+      <div class="map-box">
+        <div class="map">
+          <img src="/images/map.jpg" alt="地図">
+        </div>
+        <div class="info">
+          <p>〒500-8833<br>岐阜県岐阜市神田町9-27<br>大岐阜ビル7F</p>
+          <p>JR岐阜駅より　徒歩約2分<br>名鉄岐阜駅より　徒歩約3分</p>
+          <p><strong>＜店舗名＞</strong><br>NaturalMealMarket<br>ナチュラルミールマーケット</p>
+          <p><strong>＜ランチ＞</strong> 11：00～14：30<br>（ラストオーダー 14：00）</p>
+          <p><strong>＜定休日＞</strong> 毎週月曜日</p>
+          <p><strong>TEL：</strong>058-201-5568<br><strong>URL：</strong>http://naturalmealmarket.co.jp</p>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <!-- 8. フッター（ページの一番下） -->
-    <footer>
-        <div class="logo">NMM</div>
-    </footer>
+  <footer>
+    <a href="#" class="contact-btn">お問い合わせはこちら</a>
+    <div class="footer-bar">NaturalMealMarket</div>
+  </footer>
 
 </body>
 </html>
