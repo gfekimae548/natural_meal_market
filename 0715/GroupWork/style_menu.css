@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  background: #fff;
+  color: #4a2b2b;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(to right, #b0ec42, #f8a94c);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0a79c8;
+}
+
+.logo span {
+  color: #f45c5c;
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  font-size: 0.9rem;
+}
+
+.nav a {
+  color: #4a2b2b;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.nav a:hover {
+  background-color: #e0f4b2;
+}
+
+.sns-icons img {
+  height: 20px;
+  margin-left: 10px;
+}
+
+.content {
+  padding: 30px 10px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #7a2c2c;
+  margin-bottom: 5px;
+}
+
+.sub {
+  font-size: 1rem;
+  color: #7a2c2c;
+  margin-bottom: 20px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-row img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.footer {
+  background: linear-gradient(to right, #b0ec42, #f8a94c);
+  padding: 20px;
+  color: #0a79c8;
+  font-weight: bold;
+}
+
+.footer span {
+  color: #f45c5c;
+}
