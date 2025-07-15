@@ -1,0 +1,38 @@
+header {
+    text-align: center;
+    z-index:100;
+    width:100%;
+}
+
+.header-top {
+    background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
+    padding: 10px 0;
+}
+
+.header-top h1 {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.header-logo{
+    float:left;
+}
+
+.header-top nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-top nav ul li {
+  margin: 5px 10px;
+}
+
+.header-top nav ul li a {
+  text-decoration: none;
+  color: #333;
+  background: #d6ef8c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
