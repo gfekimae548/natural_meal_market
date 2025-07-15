@@ -171,14 +171,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 30px;
   margin-top: 20px;
   flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .map-box .map img {
   width: 300px;
-  height: auto;
 }
 
 .map-box .info {
@@ -186,6 +185,7 @@ header {
   background: #eaffcc;
   padding: 20px;
   border: 1px solid #ccc;
+  height: 450px;
 }
 
 footer {
