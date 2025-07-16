@@ -42,3 +42,13 @@ header {
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+/*フッターのソースコード*/
+.footer-bar {
+  background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+  /*padding: 10px;*/
+  /*color: linear-gradient(to right, #33CCFF, #1F7A99);*/
+  color: #33CCFF;
+  line-height: 64px;
+  font-size: 32px;
+}
