@@ -7,11 +7,12 @@ header {
 }
 
 .header-top {
-  width:100vw;
+    width:100vw;
+    height:59px;
     background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
-    padding: 10px 0;
     position:fixed;
     z-index:100;
+    padding:10px 0px;
 }
 
 .header-top h1 {
@@ -20,7 +21,15 @@ header {
   margin-bottom: 5px;
 }
 .header-logo{
+    display:flex;
     float:left;
+    font-family:serif;
+    color:white;
+    height:140%;
+    justify-content: center;
+    align-items: center;
+    background:#FC7C45;
+    margin-top:-7px;
 }
 
 .header-top nav ul {
@@ -41,4 +50,7 @@ header {
   background: #d6ef8c;
   padding: 5px 10px;
   border-radius: 5px;
+}
+.sns-icon{
+  display:block;
 }
