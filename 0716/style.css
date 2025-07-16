@@ -13,6 +13,7 @@ body {
 
 .hero {
   position: relative;
+  padding-top:3.5em;
 }
 
 .hero img {
@@ -88,10 +89,10 @@ body {
 
 .why-organic .reason {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 90%;
   background: #d4f5e0;
   padding: 20px;
-  text-align: left;
+  text-align: center;
 }
 
 .why-organic .center {

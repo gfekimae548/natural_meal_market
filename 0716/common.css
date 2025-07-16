@@ -1,12 +1,17 @@
 header {
     text-align: center;
-    z-index:100;
-    width:100%;
+}
+
+.under-line{
+  text-decoration: underline;
 }
 
 .header-top {
+  width:100vw;
     background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
     padding: 10px 0;
+    position:fixed;
+    z-index:100;
 }
 
 .header-top h1 {
@@ -21,6 +26,7 @@ header {
 .header-top nav ul {
   list-style: none;
   display: flex;
+  float:right;
   justify-content: center;
   flex-wrap: wrap;
 }
