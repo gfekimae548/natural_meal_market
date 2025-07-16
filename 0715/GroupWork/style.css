@@ -204,7 +204,7 @@ footer {
 }
 
 .footer-bar {
-  background: #f98c3f;
+  background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
   padding: 10px;
   color: white;
 }
