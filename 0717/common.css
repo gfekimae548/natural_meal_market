@@ -77,6 +77,32 @@ header {
       </nav>
     </div>
   </header>
+*/
 
+footer {
+    position: relative; /* 子要素のabsolute配置の基準にする */
+    text-align: center; /* コンテンツを中央揃え */
+    background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+    width: 100%;
+    height: 64px;
+}
 
-  */
+/*.footer-bar {
+  background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+  width: 100%;
+  height: 64px;
+}*/
+
+.footer-logo {
+  line-height: 64px;
+  font-size: 20px;
+  color: #33CCFF;
+  font-weight: normal;
+  background-color: #FC7C45;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* ここを -50% に修正 */
+  z-index: 1;
+}

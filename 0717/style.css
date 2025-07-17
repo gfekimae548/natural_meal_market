@@ -164,13 +164,17 @@ footer {
 }
 
 .contact-btn {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   background: #228B22;
   color: white;
   text-decoration: none;
   padding: 12px 30px;
   border-radius: 25px;
   margin-bottom: 20px;
+  width: 400px;
+  font-family: "Shippori Mincho" , serif;
 }
 
 
