@@ -54,9 +54,4 @@ main {
   font-size: 14px;
 }
 
-footer {
-  background: linear-gradient(to right, #b5e61d, #ff6);
-  border-top: 4px solid #ff5722;
-  padding: 20px;
-  text-align: center;
-}
+
