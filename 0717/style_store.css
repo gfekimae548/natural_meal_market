@@ -1,68 +1,13 @@
 body {
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
   margin: 0;
-  background: white;
-  color: #550000;
 }
-
-header {
-  background: linear-gradient(to right, #b5e61d, #ff6);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  border-bottom: 4px solid #ff5722;
-}
-
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-  color: #00a;
-}
-.logo span {
-  color: #f66;
-}
-
-.top-nav a,
-.top-nav button {
-  margin: 0 5px;
-  font-size: 14px;
-  color: #333;
-  text-decoration: none;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.nav-btn {
-  background: #dfe9cf;
-  border-radius: 10px;
-  padding: 5px 10px;
-  font-weight: bold;
-}
-
-.icon {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  background-size: contain;
-  margin-left: 10px;
-}
-.twitter {
-  background-image: url('twitter_icon.png');
-}
-.line {
-  background-image: url('line_icon.png');
-}
-
 main {
-  padding: 40px 20px;
-  text-align: center;
+    text-align: center;
 }
 
-h1 {
-  font-size: 28px;
-  color: #880000;
+#product-list {
+  padding-top: 134px;
 }
 
 .subheading {
@@ -73,7 +18,7 @@ h1 {
 }
 
 .cart-icon {
-  font-size: 30px;
+  font-size: 50px;
   float: right;
   margin-right: 30px;
   margin-top: -60px;
