@@ -16,7 +16,6 @@ header {
 }
 
 .header-top h1 {
-  color: white;
   font-size: 20px;
   margin-bottom: 5px;
 }
@@ -24,7 +23,7 @@ header {
     display:flex;
     float:left;
     font-family:serif;
-    color:white;
+    color:#33CCFF;
     height:140%;
     justify-content: center;
     align-items: center;
