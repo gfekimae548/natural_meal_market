@@ -54,3 +54,30 @@ header {
 .sns-icon{
   display:block;
 }
+
+
+/*
+
+
+<header>
+    <div class="header-top">
+      <h1 class="header-logo">NaturalMealMarket</h1>
+      <nav>
+        <ul>
+          <li><a href="#">TOP</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">オーガニック商品について</a></li>
+          <li><a href="#">メニュー</a></li>
+          <li><a href="#">アクセス</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li class="sns-icon">
+            <img src="image_file/Image_solo/twitter.png" alt="X">
+            <img src="image_file/Image_solo/line.png" alt="line">
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  */
