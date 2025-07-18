@@ -1,5 +1,9 @@
+*{
+  user-select: none; /* テキストバーを消す為の設定*/
+}
+
 header {
-    text-align: center;
+  text-align: center;
 }
 
 .under-line{
@@ -55,7 +59,12 @@ header {
   padding:0px 40px;
 }
 
-
+#News,#ToOrganic{
+  scroll-margin-top: 50px; /* 上に50px分余白ができる */
+}
+#Menu{
+  scroll-margin-top:25px;
+}
 /*
 
 
