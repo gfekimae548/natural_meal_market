@@ -82,7 +82,6 @@ input, #contact textarea {
   cursor: pointer;
   transition: background-color 0.3s;
   display: flex;
-  justify-content: left;
 }
 
 #contact button:hover {
