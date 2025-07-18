@@ -1,62 +1,73 @@
 *{
   user-select: none; /* テキストバーを消す為の設定*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-
-header {
-  text-align: center;
-}
-
 .under-line{
   text-decoration: underline;
 }
 
-.header-top {
-    width:100vw;
-    height:59px;
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background: #fff;
+}
+
+header {
+  text-align: center;
+  width:100vw;
+  max-height:59px;
+}
+
+.header-container{
+    display:flex;
+    width:100%;
+    height:auto;
     background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
     position:fixed;
     z-index:100;
-    padding:10px 0px;
+    justify-content: space-between;
 }
 
-.header-top h1 {
-  font-size: 20px;
-  margin-bottom: 5px;
-}
 .header-logo{
-    display:flex;
-    float:left;
     font-family:serif;
     color:#33CCFF;
-    height:140%;
-    justify-content: center;
+    height:100%;
     align-items: center;
     background:#FC7C45;
-    margin-top:-7px;
 }
 
-.header-top nav ul {
+.header-container nav{
+  width:100vw;
+}
+
+.header-container nav ul {
+  display:flex;
   list-style: none;
-  display: flex;
-  float:right;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
-.header-top nav ul li {
+.header-container nav ul li {
   margin: 5px 10px;
 }
 
-.header-top nav ul li a {
+.header-container nav ul li a {
   text-decoration: none;
   color: #333;
   background: #d6ef8c;
   padding: 5px 10px;
   border-radius: 5px;
 }
+.list-space{
+  content:"";
+  width:80px;
+}
 .sns-icon{
-  display:block;
-  padding:0px 40px;
+  display:flex;
+  padding-right:100px;
 }
 
 #News,#ToOrganic{
