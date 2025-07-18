@@ -110,6 +110,10 @@
   object-fit: cover;
 }
 
+h4.under-line a {
+  color: #861212;
+}
+
 .access {
   padding: 40px 20px;
   text-align: center;
