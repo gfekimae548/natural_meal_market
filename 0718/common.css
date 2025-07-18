@@ -1,0 +1,109 @@
+header {
+    text-align: center;
+}
+
+.under-line{
+  text-decoration: underline;
+}
+
+.header-top {
+    width:100vw;
+    height:59px;
+    background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
+    position:fixed;
+    z-index:100;
+    padding:10px 0px;
+}
+
+.header-top h1 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.header-logo{
+    display:flex;
+    float:left;
+    font-family:serif;
+    color:#33CCFF;
+    height:140%;
+    justify-content: center;
+    align-items: center;
+    background:#FC7C45;
+    margin-top:-7px;
+}
+
+.header-top nav ul {
+  list-style: none;
+  display: flex;
+  float:right;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-top nav ul li {
+  margin: 5px 10px;
+}
+
+.header-top nav ul li a {
+  text-decoration: none;
+  color: #333;
+  background: #d6ef8c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.sns-icon{
+  display:block;
+  padding:0px 40px;
+}
+
+
+/*
+
+
+<header>
+    <div class="header-top">
+      <h1 class="header-logo">NaturalMealMarket</h1>
+      <nav>
+        <ul>
+          <li><a href="#">TOP</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">オーガニック商品について</a></li>
+          <li><a href="#">メニュー</a></li>
+          <li><a href="#">アクセス</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li class="sns-icon">
+            <img src="image_file/Image_solo/twitter.png" alt="X">
+            <img src="image_file/Image_solo/line.png" alt="line">
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+*/
+
+footer {
+    position: relative; /* 子要素のabsolute配置の基準にする */
+    text-align: center; /* コンテンツを中央揃え */
+    background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+    width: 100%;
+    height: 64px;
+}
+
+/*.footer-bar {
+  background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+  width: 100%;
+  height: 64px;
+}*/
+
+.footer-logo {
+  line-height: 64px;
+  font-size: 20px;
+  color: #33CCFF;
+  font-weight: normal;
+  background-color: #FC7C45;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* ここを -50% に修正 */
+  z-index: 1;
+}
