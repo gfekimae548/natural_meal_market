@@ -1,0 +1,129 @@
+*{
+  user-select: none; /* テキストバーを消す為の設定*/
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.under-line{
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  line-height: 1.8;
+  color: #333;
+  background: #fff;
+}
+
+header {
+  text-align: center;
+  width:100vw;
+  max-height:59px;
+}
+
+.header-container{
+    display:flex;
+    width:100%;
+    height:auto;
+    background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
+    position:fixed;
+    z-index:100;
+    justify-content: space-between;
+}
+
+.header-logo{
+    font-family:serif;
+    color:#33CCFF;
+    height:100%;
+    align-items: center;
+    background:#FC7C45;
+}
+
+.header-container nav{
+  width:100vw;
+}
+
+.header-container nav ul {
+  display:flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.header-container nav ul li {
+  margin: 5px 10px;
+}
+
+.header-container nav ul li a {
+  text-decoration: none;
+  color: #333;
+  background: #d6ef8c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.list-space{
+  content:"";
+  width:80px;
+}
+.sns-icon{
+  display:flex;
+  padding-right:100px;
+}
+
+#News,#ToOrganic{
+  scroll-margin-top: 50px; /* 上に50px分余白ができる */
+}
+#Menu{
+  scroll-margin-top:25px;
+}
+/*
+
+
+<header>
+    <div class="header-top">
+      <h1 class="header-logo">NaturalMealMarket</h1>
+      <nav>
+        <ul>
+          <li><a href="#">TOP</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">オーガニック商品について</a></li>
+          <li><a href="#">メニュー</a></li>
+          <li><a href="#">アクセス</a></li>
+          <li><a href="#">お問い合わせ</a></li>
+          <li class="sns-icon">
+            <img src="image_file/Image_solo/twitter.png" alt="X">
+            <img src="image_file/Image_solo/line.png" alt="line">
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+*/
+
+footer {
+    position: relative; /* 子要素のabsolute配置の基準にする */
+    text-align: center; /* コンテンツを中央揃え */
+    background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+    width: 100%;
+    height: 64px;
+}
+
+/*.footer-bar {
+  background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+  width: 100%;
+  height: 64px;
+}*/
+
+.footer-logo {
+  line-height: 64px;
+  font-size: 20px;
+  color: #33CCFF;
+  font-weight: normal;
+  background-color: #FC7C45;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* ここを -50% に修正 */
+  z-index: 1;
+}
