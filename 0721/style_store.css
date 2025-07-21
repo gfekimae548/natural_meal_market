@@ -3,14 +3,23 @@ body {
   margin: 0;
 }
 
+.main-heading {
+  margin-bottom: 10px;
+}
+
+.main-heading, .subheading {
+  margin: 0 auto;
+}
+
 #product-list {
   padding-top: 134px;
   padding-bottom: 30px;
+  text-align: center; /* 「商品一覧」と「product list」を中央に寄せる */
+  position: relative; /* カートアイコンの絶対配置の基準点とする */
 }
 
 .subheading {
   color: #880000;
-  margin-top: -10px;
   margin-bottom: 30px;
   font-style: italic;
 }
