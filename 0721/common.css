@@ -75,7 +75,7 @@ header {
 #News,#ToOrganic{
   scroll-margin-top: 50px; /* 上に50px分余白ができる */
 }
-#Menu #contact{
+#Menu{
   scroll-margin-top:25px;
 }
 /*
