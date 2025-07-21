@@ -1,12 +1,11 @@
 .hero {
   position: relative;
-  padding-top:3.5em;
+  padding-top:3.3em;
 }
 
 .hero img {
-  width: 100%;
+  width:99%;
   height: 80%;
-  display: block;
 }
 
 .hero-text {

@@ -29,6 +29,7 @@ header {
     background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
     position:fixed;
     z-index:100;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -41,13 +42,15 @@ header {
 }
 
 .header-container nav{
-  width:100vw;
+  width:100%;
 }
 
 .header-container nav ul {
   display:flex;
+  justify-content:flex-end;
   list-style: none;
   flex-wrap: wrap;
+  padding-right:23px;
 }
 
 .header-container nav ul li {
@@ -61,13 +64,12 @@ header {
   padding: 5px 10px;
   border-radius: 5px;
 }
-.list-space{
-  content:"";
-  width:80px;
-}
 .sns-icon{
   display:flex;
-  padding-right:100px;
+  height:33.2px;
+  padding-right:13px;
+  gap:20px;
+  justify-content: flex-end;
 }
 
 #News,#ToOrganic{
