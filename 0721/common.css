@@ -26,8 +26,8 @@ header {
     display:flex;
     width:100%;
     height:auto;
-    background: linear-gradient(to right, #24f324, #c2fbca, #24f324);
     position:fixed;
+    background: linear-gradient(to right, #7A991F,#CCFF33,#7A991F);
     z-index:100;
     align-items: center;
     justify-content: space-between;
@@ -75,31 +75,34 @@ header {
 #News,#ToOrganic{
   scroll-margin-top: 50px; /* 上に50px分余白ができる */
 }
-#Menu{
+#Menu #contact{
   scroll-margin-top:25px;
 }
 /*
 
+    <header>
+      <div class="header-container">
+        <div class="header-logo">
+          <h1>NaturalMealMarket</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html#Top" target="_self">TOP</a></li>
+            <li><a href="index.html#News" taeget="_self">お知らせ</a></li>
+            <li><a href="index.html#ToOrganic" target="_self">オーガニック商品について</a></li>
+            <li><a href="index.html#Menu" target="_self">メニュー</a></li>
+            <li><a href="index.html#access" target="_self">アクセス</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+        </nav>
+        <div class="sns-icon">
+          <img src="image_file/Image_solo/twitter.png" alt="X">
+          <img src="image_file/Image_solo/line.png" alt="line">
+        </div>
+      </div>
+    </header>
 
-<header>
-    <div class="header-top">
-      <h1 class="header-logo">NaturalMealMarket</h1>
-      <nav>
-        <ul>
-          <li><a href="#">TOP</a></li>
-          <li><a href="#">お知らせ</a></li>
-          <li><a href="#">オーガニック商品について</a></li>
-          <li><a href="#">メニュー</a></li>
-          <li><a href="#">アクセス</a></li>
-          <li><a href="#">お問い合わせ</a></li>
-          <li class="sns-icon">
-            <img src="image_file/Image_solo/twitter.png" alt="X">
-            <img src="image_file/Image_solo/line.png" alt="line">
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+
 */
 
 footer {
