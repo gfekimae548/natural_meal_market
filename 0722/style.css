@@ -61,7 +61,7 @@
 }
 
 .news li span {
-  color: #666;
+  color: #861212;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -119,6 +119,7 @@
 
 h4.under-line a {
   color: #861212;
+  font-family: "Shippori Mincho" , serif;
 }
 
 .access {
