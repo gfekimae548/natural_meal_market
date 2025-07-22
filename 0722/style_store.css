@@ -1,0 +1,65 @@
+body {
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  margin: 0;
+}
+
+.main-heading {
+  margin-bottom: 10px;
+}
+
+.main-heading, .subheading {
+  margin: 0 auto;
+}
+
+#product-list {
+  padding-top: 134px;
+  padding-bottom: 30px;
+  text-align: center; /* 「商品一覧」と「product list」を中央に寄せる */
+  position: relative; /* カートアイコンの絶対配置の基準点とする */
+}
+
+.subheading {
+  color: #880000;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.cart-icon {
+  display: flex;
+  font-size: 50px;
+  justify-content: right;
+  margin-right: 30px;
+  margin-top: -60px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.product-card {
+  border: 2px solid #0a3;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 0 0;
+}
+
+.price {
+  color: #660000;
+  font-size: 14px;
+}
+
+
