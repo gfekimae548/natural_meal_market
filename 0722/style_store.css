@@ -16,7 +16,6 @@ body {
 #product-list {
   padding-top: 134px;
   padding-bottom: 30px;
-  text-align: center; /* 「商品一覧」と「product list」を中央に寄せる */
   position: relative; /* カートアイコンの絶対配置の基準点とする */
   color: #861212;
   font-family: "Shippori Mincho" , serif;
@@ -32,27 +31,30 @@ body {
   display: flex;
   font-size: 50px;
   justify-content: right;
-  margin-right: 30px;
+  margin-right: 180px;
   margin-top: -60px;
 }
 
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  max-width: 1000px;
+.product-container {
+  max-width: 80%;
   margin: 0 auto;
+}
+
+.product-block{
+  display:flex;
+  justify-content: space-between;
+  padding-bottom:100px;
 }
 
 .product-card {
   border: 2px solid #0a3;
   border-radius: 5px;
   padding: 10px;
+  width:25%;
 }
 
 .product-card img {
-  width: 100%;
-  height: auto;
+
 }
 
 .name {
