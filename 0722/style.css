@@ -55,6 +55,8 @@
 
 .news li {
   margin-bottom: 10px;
+  color: #861212;
+  text-decoration: underline;
 }
 
 .news li span {
@@ -67,6 +69,10 @@
   background: #fffde8;
   padding: 50px 20px;
   text-align: center;
+}
+
+.why-organic p, h2, h3 {
+  color: #861212
 }
 
 .why-organic h2 {
