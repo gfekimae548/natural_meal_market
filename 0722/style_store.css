@@ -18,6 +18,8 @@ body {
   padding-bottom: 30px;
   text-align: center; /* 「商品一覧」と「product list」を中央に寄せる */
   position: relative; /* カートアイコンの絶対配置の基準点とする */
+  color: #861212;
+  font-family: "Shippori Mincho" , serif;
 }
 
 .subheading {
