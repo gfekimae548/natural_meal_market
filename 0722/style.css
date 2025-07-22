@@ -72,7 +72,8 @@
 }
 
 .why-organic p, h2, h3, .menu-links p {
-  color: #861212;  
+  color: #861212;
+  font-family: "Shippori Mincho" , serif; 
 }
 
 .why-organic h2 {
