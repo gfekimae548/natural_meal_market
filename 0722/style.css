@@ -158,6 +158,11 @@ h4.under-line a {
   height: 450px;
 }
 
+.info{
+  color: #861212;
+  font-family: "Shippori Mincho" , serif;
+}
+
 footer {
   margin-top: 40px;
   text-align: center;
