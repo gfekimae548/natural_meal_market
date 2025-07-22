@@ -111,9 +111,9 @@ header {
 
 */
 
-footer {
-    position: relative; /* 子要素のabsolute配置の基準にする */
-    text-align: center; /* コンテンツを中央揃え */
+ /*footer {
+    position: relative; 
+    text-align: center; 
     background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
     width: 100%;
     height: 64px;
@@ -129,6 +129,34 @@ footer {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%); /* ここを -50% に修正 */
+  transform: translate(-50%, -50%); 
   z-index: 1;
+} */
+
+footer {
+    background: linear-gradient(to right, #CCFF33, #7A991F, #CCFF33);
+    width: 100%;
+    height: 64px;
+    display: flex; /* Flexboxコンテナにする */
+    align-items: center; /* 垂直方向の中央揃え */
+    justify-content: center; /* 水平方向の中央揃え */
 }
+
+.footer-logo {
+    color: #33CCFF;
+    font-family: serif;
+    background-color: #FC7C45;
+    line-height: 64px;
+    margin-bottom: 0;
+    /* 以前のposition関連のプロパティは全て削除 */
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 1; */
+    /* line-heightはFlexboxで垂直中央揃えにする場合は不要 */
+    /* line-height: 64px; */
+    /* Flexboxで中央揃えされるため、margin: autoは不要な場合もありますが、
+       要素の特性によっては残しておくと良いでしょう。 */
+}
+
