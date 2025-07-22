@@ -18,10 +18,14 @@ h2 {
   margin-bottom: 5px;
 }
 
+h2  {
+  text-decoration: underline;
+}
 .sub {
   font-size: 1rem;
   color: #7a2c2c;
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 .image-row {
