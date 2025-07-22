@@ -58,11 +58,14 @@ header {
 
 .header-container nav ul li {
   margin: 5px 10px;
+  color: #861212;
+  font-family: "Shippori Mincho" , serif;
 }
 
 .header-container nav ul li a {
   text-decoration: none;
-  color: #333;
+ color: #861212;
+  font-family: "Shippori Mincho" , serif;
   background: #d6ef8c;
   padding: 5px 10px;
   border-radius: 5px;
