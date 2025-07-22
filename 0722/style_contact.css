@@ -1,7 +1,7 @@
 /* フォーム全体 */
 #contact {
   text-align: center;
-  padding: 140px 20px 20px 0px;
+  padding: 112px 20px 20px 0px;
 }
 
 /* 見出し */
@@ -22,7 +22,7 @@
   border: 2px solid green;
   border-radius: 5px;
   padding: 30px;
-  max-width: 95%;
+  max-width: 75%;
   margin: 40px auto;
   background-color: #fff;
 }
