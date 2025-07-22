@@ -5,10 +5,12 @@ body {
 
 .main-heading {
   margin-bottom: 10px;
+  color: #861212;
 }
 
 .main-heading, .subheading {
   margin: 0 auto;
+  text-decoration: underline;
 }
 
 #product-list {
@@ -21,7 +23,7 @@ body {
 .subheading {
   color: #880000;
   margin-bottom: 30px;
-  font-style: italic;
+  padding-top: 5px;
 }
 
 .cart-icon {
