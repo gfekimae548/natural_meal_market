@@ -51,6 +51,7 @@
   padding: 20px 0 20px 50px;
   border: 1px dotted #bbb;
   list-style: none;
+  font-family: "Shippori Mincho" , serif;
 }
 
 .news li {
@@ -60,7 +61,7 @@
 }
 
 .news li span {
-  color: #666;
+  color: #861212;
   font-size: 14px;
   margin-right: 10px;
 }
@@ -72,7 +73,8 @@
 }
 
 .why-organic p, h2, h3, .menu-links p {
-  color: #861212;  
+  color: #861212;
+  font-family: "Shippori Mincho" , serif; 
 }
 
 .why-organic h2 {
@@ -117,6 +119,7 @@
 
 h4.under-line a {
   color: #861212;
+  font-family: "Shippori Mincho" , serif;
 }
 
 .access {
@@ -153,6 +156,11 @@ h4.under-line a {
   padding: 20px;
   border: 1px solid #ccc;
   height: 450px;
+}
+
+.info{
+  color: #861212;
+  font-family: "Shippori Mincho" , serif;
 }
 
 footer {
