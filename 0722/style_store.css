@@ -9,7 +9,7 @@ body {
 }
 
 .main-heading, .subheading {
-  margin: 0 auto;
+  text-align: center;
   text-decoration: underline;
 }
 
