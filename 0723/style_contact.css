@@ -79,3 +79,7 @@ input, #contact textarea {
 #contact button:hover {
   background-color: #006400;
 }
+
+footer{
+  margin-top:auto;
+}
