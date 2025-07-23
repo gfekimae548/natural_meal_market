@@ -1,3 +1,9 @@
+body{
+  display:flex;
+  flex-direction: column;
+  min-height:100vh;
+}
+
 /* フォーム全体 */
 #contact {
   text-align: center;
@@ -78,4 +84,8 @@ input, #contact textarea {
 
 #contact button:hover {
   background-color: #006400;
+}
+
+footer{
+  margin-top:auto;
 }
