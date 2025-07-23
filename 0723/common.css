@@ -120,7 +120,6 @@ footer {
     display: flex; /* Flexboxコンテナにする */
     align-items: center; /* 垂直方向の中央揃え */
     justify-content: center; /* 水平方向の中央揃え */
-    
 }
 
 .footer-logo {
